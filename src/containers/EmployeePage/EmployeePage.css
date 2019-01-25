@@ -1,0 +1,33 @@
+.EmployeeInfoWrap {
+  display: block;
+  padding: 20px 0;
+}
+
+.EmployeeInfoWrap li {
+  margin-bottom: 8px;
+}
+
+.BackBtn {
+  display: block;
+  color: #333;
+  padding: 8px;
+}
+
+.BtnArrow {
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  margin-bottom: 1px;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+@media (min-width: 768px) {
+  .EmployeeInfoWrap {
+    display: flex;
+  }
+  .w50 {
+    flex: 1;
+  }
+}
